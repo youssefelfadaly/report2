@@ -1,0 +1,42 @@
+/* General Button Style */
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Alert Button Style */
+#alert-btn {
+  background-color: #28a745;
+}
+
+#alert-btn:hover {
+  background-color: #218838;
+}
+
+/* Back to Top Button */
+#back-to-top {
+  background-color: #f4a261;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none; /* Hidden by default */
+}
+
+#back-to-top:hover {
+  background-color: #e76f51;
+}
